@@ -1,0 +1,4 @@
+ALTER TABLE employee_data
+ADD COLUMN gender VARCHAR (45),
+RENAME COLUMN dept TO department,
+CHANGE COLUMN full_name full_name VARCHAR (100);
