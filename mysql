@@ -1,7 +1,9 @@
-CREATE TABLE employee_datab (
+CREATE TABLE employee_datac (
     employee_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    full_name VARCHAR(50), 
-    job_title VARCHAR(50),
-    department VARCHAR(50)
+    full_name VARCHAR(45), 
+    job_title VARCHAR(45),
+    department VARCHAR(45),
+    age VARCHAR(45),
+    gender VARCHAR(45)
 );
 
