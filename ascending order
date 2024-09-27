@@ -1,0 +1,1 @@
+SELECT job_title FROM employees.employee_data ORDER BY job_title ASC;
